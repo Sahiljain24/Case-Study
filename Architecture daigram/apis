@@ -1,0 +1,33 @@
+
+Auth Service :
+
+//: Register a User
+1. /auth/register
+
+//: Create a token
+2. /auth/token
+
+//: Validate a token
+3. /auth/validate
+
+Train API :
+
+//: To add a Train
+1. api/trains/add
+
+//: To search all train
+2. api/search/all
+
+//: To search a train based on date and boarding and destination station
+3. api/search
+
+//: To search Train Schedule based on date and trainId
+4. /api/schedules/check
+
+Reservation Service API :
+
+//: To reserve a train (by filling reservation form)
+1. /api/reservations/book
+
+//: To cancel a reservation by pnr no.
+2. /api/reservations/cancel/{pnr}
